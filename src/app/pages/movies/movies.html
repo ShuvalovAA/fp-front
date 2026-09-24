@@ -1,0 +1,23 @@
+<h2>Search Movies<h2>
+<input
+    type="text"
+    [(ngModel)]="searchTitle"
+    placeholder="Enter movie title"
+>
+<button (click)="search()">Search</button>
+
+@if (errorMessage) {
+    <p class="error">{{ errorMessage }}</p>
+}
+
+
+@if (movies.length > 0) {
+    <div>
+        @for (item of movies; track $index) {
+            <div>
+                <strong>{{ item.Title }}</strong> {{ item.Year }}<br>
+                <img [src]="item.Poster" [alt]="item.Title">
+            </div>
+        }
+    </div>
+}

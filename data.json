@@ -1,0 +1,35 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "First note",
+      "content": "About first note",
+      "createdAt": "2025-07-21T12:00:00"
+    },
+    {
+      "id": 2,
+      "title": "Second note",
+      "content": "About Second note",
+      "createdAt": "2025-07-22T12:00:00"
+    },
+    {
+      "id": 3,
+      "title": "Lol note",
+      "content": "About lol note",
+      "createdAt": "2025-07-23T12:00:00"
+    },
+    {
+      "id": 4,
+      "title": "sdf",
+      "content": "asdf",
+      "createdAt": "2026-06-18T15:48:24.508Z"
+    },
+    {
+      "id": 5,
+      "title": "ertyet4y",
+      "content": "ertyetry",
+      "createdAt": "2026-06-18T15:50:01.489Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

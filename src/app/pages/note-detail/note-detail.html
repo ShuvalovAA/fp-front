@@ -1,0 +1,11 @@
+<h2>заметка</h2>
+<p *ngIf="note">
+    <strong>{{ note.id }} </strong>
+    <strong>{{ note.title }} </strong>
+    <strong>{{ note.content | noteShortener: 3}} </strong>
+    <strong>{{ note.createdAt }} </strong>
+
+</p>
+<p *ngIf="!note">
+    такой заметки нет
+</p>

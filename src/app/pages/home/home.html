@@ -1,0 +1,11 @@
+<h1 (click)="showAert()">My notes</h1>
+
+
+<ul>
+  <li *ngFor="let note of notes()">
+    <a [routerLink]="['/note', note.id]">{{ note.content }}</a>
+  </li>
+</ul>
+
+
+<app-note-add></app-note-add>
